@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2ED5551B6924D200140AF6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2ED5541B6924D200140AF6 /* Accounts.framework */; };
+		1B2ED5571B6924D800140AF6 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2ED5561B6924D800140AF6 /* Twitter.framework */; };
 		1B9855991B6894F700B83FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9855981B6894F700B83FC9 /* Foundation.framework */; };
 		1B98559B1B6894F700B83FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98559A1B6894F700B83FC9 /* CoreGraphics.framework */; };
 		1B98559D1B6894F700B83FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98559C1B6894F700B83FC9 /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2ED5541B6924D200140AF6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1B2ED5561B6924D800140AF6 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		1B9855951B6894F700B83FC9 /* YellowStone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowStone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9855981B6894F700B83FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B98559A1B6894F700B83FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2ED5571B6924D800140AF6 /* Twitter.framework in Frameworks */,
+				1B2ED5551B6924D200140AF6 /* Accounts.framework in Frameworks */,
 				1B98559B1B6894F700B83FC9 /* CoreGraphics.framework in Frameworks */,
 				1B98559D1B6894F700B83FC9 /* UIKit.framework in Frameworks */,
 				1B9855991B6894F700B83FC9 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		1B9855971B6894F700B83FC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B2ED5561B6924D800140AF6 /* Twitter.framework */,
+				1B2ED5541B6924D200140AF6 /* Accounts.framework */,
 				1B9855981B6894F700B83FC9 /* Foundation.framework */,
 				1B98559A1B6894F700B83FC9 /* CoreGraphics.framework */,
 				1B98559C1B6894F700B83FC9 /* UIKit.framework */,
@@ -461,6 +469,7 @@
 				1B9855C91B6894F700B83FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B9855CA1B6894F700B83FC9 /* Build configuration list for PBXNativeTarget "YellowStoneTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				1B9855CC1B6894F700B83FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

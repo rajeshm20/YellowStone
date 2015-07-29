@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <Twitter/Twitter.h>
 
 @interface testViewController : UIViewController
-
+- (IBAction)sendTweet:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *resultText;
+@property (weak, nonatomic) IBOutlet UIButton *tweetButton;
+-(void)displayResult:(NSString *)text;
 @end
